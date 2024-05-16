@@ -233,8 +233,8 @@ public class KCAR {
     public static void main(String[] args) {
         APIGraph apiGraph = new APIGraph();
         try {
-            apiGraph.addAPINodes("C:\\Users\\86186\\Desktop\\Java大作业\\api_out.csv");
-            apiGraph.buildGraphFromMashups("C:\\Users\\86186\\Desktop\\Java大作业\\mashup_apis.csv");
+            apiGraph.addAPINodes("your path");
+            apiGraph.buildGraphFromMashups("your path");
         } catch (IOException e) {
             e.printStackTrace();
         }
